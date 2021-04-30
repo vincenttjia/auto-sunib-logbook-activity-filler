@@ -101,7 +101,27 @@ def main():
   payload = {"model[ID]":"00000000-0000-0000-0000-000000000000","model[LogBookHeaderID]":April_logbook_id,"model[Date]":"2021-04-11T00:00:00","model[Activity]":"OFF","model[ClockIn]":"OFF","model[ClockOut]":"OFF","model[Description]":"OFF"}
   r = s.post(url, data=payload)
   print(r.json())
-
+    payload = {"model[ID]":"00000000-0000-0000-0000-000000000000","model[LogBookHeaderID]":April_logbook_id,"model[Date]":"2021-04-13T00:00:00","model[Activity]":"OFF","model[ClockIn]":"OFF","model[ClockOut]":"OFF","model[Description]":"OFF"}
+  r = s.post(url, data=payload)
+  print(r.json())
+  payload = {"model[ID]":"00000000-0000-0000-0000-000000000000","model[LogBookHeaderID]":April_logbook_id,"model[Date]":"2021-04-15T00:00:00","model[Activity]":"OFF","model[ClockIn]":"OFF","model[ClockOut]":"OFF","model[Description]":"OFF"}
+  r = s.post(url, data=payload)
+  print(r.json())
+  payload = {"model[ID]":"00000000-0000-0000-0000-000000000000","model[LogBookHeaderID]":April_logbook_id,"model[Date]":"2021-04-17T00:00:00","model[Activity]":"OFF","model[ClockIn]":"OFF","model[ClockOut]":"OFF","model[Description]":"OFF"}
+  r = s.post(url, data=payload)
+  print(r.json())
+  payload = {"model[ID]":"00000000-0000-0000-0000-000000000000","model[LogBookHeaderID]":April_logbook_id,"model[Date]":"2021-04-20T00:00:00","model[Activity]":"OFF","model[ClockIn]":"OFF","model[ClockOut]":"OFF","model[Description]":"OFF"}
+  r = s.post(url, data=payload)
+  print(r.json())
+  payload = {"model[ID]":"00000000-0000-0000-0000-000000000000","model[LogBookHeaderID]":April_logbook_id,"model[Date]":"2021-04-24T00:00:00","model[Activity]":"OFF","model[ClockIn]":"OFF","model[ClockOut]":"OFF","model[Description]":"OFF"}
+  r = s.post(url, data=payload)
+  print(r.json())
+  payload = {"model[ID]":"00000000-0000-0000-0000-000000000000","model[LogBookHeaderID]":April_logbook_id,"model[Date]":"2021-04-27T00:00:00","model[Activity]":"OFF","model[ClockIn]":"OFF","model[ClockOut]":"OFF","model[Description]":"OFF"}
+  r = s.post(url, data=payload)
+  print(r.json())
+  payload = {"model[ID]":"00000000-0000-0000-0000-000000000000","model[LogBookHeaderID]":April_logbook_id,"model[Date]":"2021-04-29T00:00:00","model[Activity]":"OFF","model[ClockIn]":"OFF","model[ClockOut]":"OFF","model[Description]":"OFF"}
+  r = s.post(url, data=payload)
+  print(r.json())
 
 
   # INSERT Log Book
@@ -157,6 +177,36 @@ def main():
   r = s.post(url, data=payload)
   print(r.json())
   payload = {"model[ID]":"00000000-0000-0000-0000-000000000000","model[LogBookHeaderID]":April_logbook_id,"model[Date]":"2021-04-09T00:00:00","model[Activity]":Activity,"model[ClockIn]":"03:20 pm","model[ClockOut]":"07:00 pm","model[Description]":Description}
+  r = s.post(url, data=payload)
+  print(r.json())
+  payload = {"model[ID]":"00000000-0000-0000-0000-000000000000","model[LogBookHeaderID]":April_logbook_id,"model[Date]":"2021-04-12T00:00:00","model[Activity]":Activity,"model[ClockIn]":"11:20 am","model[ClockOut]":"05:00 pm","model[Description]":Description}
+  r = s.post(url, data=payload)
+  print(r.json())
+  payload = {"model[ID]":"00000000-0000-0000-0000-000000000000","model[LogBookHeaderID]":April_logbook_id,"model[Date]":"2021-04-14T00:00:00","model[Activity]":Activity,"model[ClockIn]":"11:20 am","model[ClockOut]":"07:00 pm","model[Description]":Description}
+  r = s.post(url, data=payload)
+  print(r.json())
+  payload = {"model[ID]":"00000000-0000-0000-0000-000000000000","model[LogBookHeaderID]":April_logbook_id,"model[Date]":"2021-04-16T00:00:00","model[Activity]":Activity,"model[ClockIn]":"03:20 pm","model[ClockOut]":"07:00 pm","model[Description]":Description}
+  r = s.post(url, data=payload)
+  print(r.json())
+  payload = {"model[ID]":"00000000-0000-0000-0000-000000000000","model[LogBookHeaderID]":April_logbook_id,"model[Date]":"2021-04-19T00:00:00","model[Activity]":Activity,"model[ClockIn]":"11:20 am","model[ClockOut]":"05:00 pm","model[Description]":Description}
+  r = s.post(url, data=payload)
+  print(r.json())
+  payload = {"model[ID]":"00000000-0000-0000-0000-000000000000","model[LogBookHeaderID]":April_logbook_id,"model[Date]":"2021-04-21T00:00:00","model[Activity]":Activity,"model[ClockIn]":"09:20 am","model[ClockOut]":"01:00 pm","model[Description]":Description}
+  r = s.post(url, data=payload)
+  print(r.json())
+  payload = {"model[ID]":"00000000-0000-0000-0000-000000000000","model[LogBookHeaderID]":April_logbook_id,"model[Date]":"2021-04-22T00:00:00","model[Activity]":Activity,"model[ClockIn]":"03:20 pm","model[ClockOut]":"05:00 pm","model[Description]":Description}
+  r = s.post(url, data=payload)
+  print(r.json())
+  payload = {"model[ID]":"00000000-0000-0000-0000-000000000000","model[LogBookHeaderID]":April_logbook_id,"model[Date]":"2021-04-23T00:00:00","model[Activity]":Activity,"model[ClockIn]":"03:20 pm","model[ClockOut]":"07:00 pm","model[Description]":Description}
+  r = s.post(url, data=payload)
+  print(r.json())
+  payload = {"model[ID]":"00000000-0000-0000-0000-000000000000","model[LogBookHeaderID]":April_logbook_id,"model[Date]":"2021-04-26T00:00:00","model[Activity]":Activity,"model[ClockIn]":"03:20 pm","model[ClockOut]":"07:00 pm","model[Description]":Description}
+  r = s.post(url, data=payload)
+  print(r.json())
+  payload = {"model[ID]":"00000000-0000-0000-0000-000000000000","model[LogBookHeaderID]":April_logbook_id,"model[Date]":"2021-04-28T00:00:00","model[Activity]":Activity,"model[ClockIn]":"09:20 am","model[ClockOut]":"01:00 pm","model[Description]":Description}
+  r = s.post(url, data=payload)
+  print(r.json())
+  payload = {"model[ID]":"00000000-0000-0000-0000-000000000000","model[LogBookHeaderID]":April_logbook_id,"model[Date]":"2021-04-30T00:00:00","model[Activity]":Activity,"model[ClockIn]":"03:20 pm","model[ClockOut]":"07:00 pm","model[Description]":Description}
   r = s.post(url, data=payload)
   print(r.json())
 
